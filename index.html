@@ -1,0 +1,19 @@
+<!DOCTYPE html><html><head>
+<meta charset='UTF-8'><title>HomeSecure Dashboard</title>
+<link rel='stylesheet' href='styles.css'>
+<script src='https://cdn.jsdelivr.net/npm/chart.js'></script>
+</head><body>
+<h1>HomeSecure Sales Board</h1>
+<table id='leaderboard'>
+<thead><tr>
+<th>Rank</th><th>Agent</th><th>Daily</th><th>Weekly</th>
+<th>Monthly</th><th>Avg Upfront</th><th>Avg Monitoring</th><th>Yearly</th>
+</tr></thead><tbody></tbody></table>
+
+<h2>Monthly Sales Count</h2><canvas id='chart1'></canvas>
+<h2>Team Averages</h2><canvas id='chart2'></canvas>
+
+<h2>Recent Sales</h2><div id='recent'></div>
+
+<script type='module' src='js/dashboard.js'></script>
+</body></html>

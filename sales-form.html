@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head>
+<meta charset='UTF-8'><title>Add Sale</title>
+<link rel='stylesheet' href='styles.css'></head><body>
+<h1>Submit Sale</h1>
+<form id='saleForm'>
+<label>Agent <input id='agent' type='text' required></label><br>
+<label>Upfront (€) <input id='upfront' type='number' step='0.01' required></label><br>
+<label>Monitoring (€) <input id='monitoring' type='number' step='0.01' required></label><br>
+<label>Notes <input id='notes' type='text'></label><br>
+<button type='submit'>Submit</button></form>
+<div id='status'></div>
+<script type='module' src='js/form.js'></script>
+</body></html>
